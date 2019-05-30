@@ -19,4 +19,4 @@ In may 2019, I graduated *summa cum laude* from uconn with a B.S. in molecular a
   
 I forsee this site as being a repository of data science/bioinformatics themed rants. I hope to make it irreverant enough for the casual reader, and scientific enough for the people led here from my resume. We'll see how that goes.       
 
-You can read some rave (markov chain generated) reviews of me and my work [Here]({% link _posts/2019-05-21-Nice-mcs.md %})
+You can read some rave (markov chain generated) reviews of me and my work [Here]({% link _posts/2019-05-29-nice-mcs.html %})

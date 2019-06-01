@@ -9,7 +9,7 @@ Animated graphs
 
 Mostly I've used gganimate for this. Probably the most famous example comes from the gapminder dataset
 
-![](../assets/foo/gapminder.gif)
+![](/assets/foo/gapminder.gif)
 
 
 ``` r
@@ -37,7 +37,7 @@ anim_save(anim, file="gapminder.gif")
 
 I had fun simulating different sized batches of normally distributed data with rnorm, and comparing it to a real normal curve. Small data sets are predictably wonky, and you get better and better approximations of the normal distribution with larger sample sizes. Here simulated datasets is in red, while the real normal curve is in blue.
 
-![](../assets/foo/test.gif)
+![](/assets/foo/test.gif)
 
 The code to generate it wasn't terribly complex
 
@@ -67,7 +67,7 @@ animate_normal_simulations <- function(start,stop,step, filename="test.gif"){
 
 Here's a fun visualization of the law of large numbers.
 
-![](../assets/foo/rolls.gif)
+![](/assets/foo/rolls.gif)
 
 Again, the code is fairly simple. I'm quite pleased with this one
 

@@ -63,13 +63,13 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://thomas-davis.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/thomas-davis"
 
 footer:
   links:
@@ -83,7 +83,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 footer-links-active:
-        github: true
+        github: false
         email: true
         rss: false
         facebook: false

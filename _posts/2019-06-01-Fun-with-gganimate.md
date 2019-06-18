@@ -112,7 +112,8 @@ Interactive Graphs
 ==================
 
 Rshiny and plotly are my favorite tools for this. Rshiny even provides free web hosting for 5 interactive graphs. Here's a fun example I made, leveraging the babynames dataset, to show a names popularity over time and by gender, for two million babies in the US. [check out the link](https://thomas-davis-eeb4100.shinyapps.io/questionthreeapp/). Users can type in whatever name their curious. Some of my favorites:
-
+Agatha:
 ![Agatha](../assets/Foo/Agatha.png)
 
-compared with ![Riley](../assets/Foo/riley.png)
+compared with Riley: 
+![Riley](../assets/Foo/Riley.png)

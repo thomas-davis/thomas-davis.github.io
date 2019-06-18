@@ -1,0 +1,32 @@
+---
+title: "Untitled"
+author: "Tom Davis"
+date: "June 14, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# TCGA Variant calling pipelines show low agreement
+
+This will be a quick post-- I want to communicate a suprising (to me, at least) result 
+
+There are, by my highly scientific estimate, about a gajillion somatic variant calling tools available. All the samples on TCGA are subject to four variant calling pipelines, whic are GDC believes "are representative of the most reliable callers currently available". Each pipeline is based on a different caller-- you can read about all the gory pipeline details [here](https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/DNA_Seq_Variant_Calling_Pipeline/#somatic-variant-calling-workflow).
+
+But, as the title says, these four pipelines show fairly low concordance. I downloaded somatic MAF files for each pipeline (which have SNP and indel calls), and made this venn diagram [venn](https://cran.r-project.org/web/packages/venn/index.html)) of all the calls for the 1100 or so BRCA samples on TCGA:
+
+![test](../assets/variant_calling_discrepancies/breast_venn.tiff)
+
+
+Only about 44 percent of calls were made by all pipelines.
+
+```{r}
+
+
+
+
+```
+
+
